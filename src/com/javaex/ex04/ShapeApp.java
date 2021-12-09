@@ -7,6 +7,9 @@ public class ShapeApp {
 
     public static void main(String[] args) {
         List<Shape> sList = new ArrayList<Shape>(); 
+        if(sList instanceof List) {
+        	System.out.println("true");
+        }
         
         Shape r= new Rectangle( 5, 6 );
         Shape t= new RectTriangle( 6, 2 );
